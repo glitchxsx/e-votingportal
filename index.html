@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>E-voting system</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style_radio.css">    
+    </head>
+    <body>
+        <div class="login">
+            <div class="heading">
+                <p>E-voting system</h1>
+            </div>
+            <div class="phn">
+                <form>
+                    <label for="phone">Enter your phone number: </label>
+                    <br>
+                    <input type="tel" minlength="10" maxlength="10"/>
+                    <br>
+                    <button class="proceed-button" onclick="show()">
+                        Proceed
+                    </button> 
+                </form>
+            </div>
+        </div>
+        <div class="menu" id="vote">
+            <h1>Vote for your favourite K-pop band: </h1>
+            <form>
+                <input type="radio" name="band" id="rad1" value="band1">
+                <label for="rad1">BTS</label>
+                <br>
+                <input type="radio" name="band" id="rad2" value="band2">
+                <label for="rad1">Blackpink</label>
+                <br>
+                <input type="radio" name="band" id="rad3" value="band3">
+                <label for="rad1">Exo</label>
+                <br>
+                <input type="radio" name="band" id="rad4" value="band4">
+                <label for="rad1">Mamamoo</label>
+                <br>
+                <input type="radio" name="band" id="rad5" value="band5">
+                <label for="rad1">Seventeen</label>
+            </form>
+            <button class="submit-button" onclick="window.location.href = 'thankyou.html';">Submit</button>
+        </div>
+        <script>
+            function show() {
+            document.getElementById("vote").style.display = 'block';
+        }
+        </script>         
+    </body>      
+</html>
+
+

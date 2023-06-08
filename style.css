@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.login{
+    margin-top: 150px;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+}
+
+.phn{
+    margin-top: 50px;
+}
+
+p{
+    font-family: Roboto;
+    font-weight: 500px;
+    color: black;
+    font-size: 35px;
+}
+
+.phn input{
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-color: rgb(184, 184, 184);
+    border-style: solid;
+    border-width: 1.3px;
+    border-radius: 20px;
+    box-shadow: inset 1px 1px 2px rgb(0, 0, 0, 0.05);
+    width: 200px;
+    margin-top: 25px;
+}
+
+.phn label{
+    font-size: 25px;
+}
+
+.proceed-button{
+    background-color: rgb(238, 147, 94);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    border-color: rgb(238, 147, 94);
+    border-radius: 40px;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    margin: 18px;
+    
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.proceed-button:hover{
+    background-color: rgb(149, 226, 119);
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    border-color: rgb(149, 226, 119);
+    border-radius: 40px;
+    border-width: 1px;
+    border-style: solid;
+    margin: 18px;
+}
+
+.menu{
+    display: none;
+}
